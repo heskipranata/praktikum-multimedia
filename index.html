@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>heskipranata</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#materi">Materi</a>
+            <a href="contact">Contact</a>
+        </div>
+    </header>
+
+    <section class="container home">
+        <div class="home-text">
+          <p class="title">Selamat Datang di Website Saya</p>
+          <p>Jelajahi dan temukan lebih banyak tentang apa yang saya kerjakan, dari pengembangan web hingga inovasi terbaru dalam industri TI. Jika Anda memiliki pertanyaan atau ingin terhubung, jangan ragu untuk menghubungi saya melalui halaman kontak.</p>
+          
+        </div>
+    </section>
+
+    <section class="container about" id="about">
+        <div class="about-container">
+            <p class="title about-title">About me</p>
+            <div class="data">
+                <img class="profile-picture" src="./hsk.png">
+                <div class="about-grid">
+                    <div class="about-grid-box">
+                        <p class="about-subtitle">About me</p>
+                        <p class="about-text">Hi, my name is Heski Pranata. I'm 20 years old and currently pursuing a degree in Informatics Engineering at Sam Ratulangi University. My passion lies in programming and exploring various aspects of the IT industry.
+
+                            I have a strong interest in software development, particularly in creating innovative and efficient solutions to real-world problems. </p>
+                    </div>
+                    <div class="about-grid-box">
+                        <p class="about-subtitle">My skill</p>
+                        
+                        <ul class="skil">
+                            <li class="about-text">Sleep</li>
+                            <li class="about-text">Eat</li>
+                            <li class="about-text">Gaming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container materi" id="materi">
+        <p class="title blog-title">Materi</p>
+        <div class="blog-container dasar-teori">
+            <p class="sub-header">Dasar Teori</p>
+            <p class="about-text">CSS (Cascading Style Sheets), menggambarkan bagaimana elemen-elemen HTML ditampilkan pada layar, kertas, atau media lainnya. CSS mempersingkat pekerjaan dengan cara mengendalikan tampilan (layout) beberapa halaman web sekaligus. CSS dapat ditambahkan ke dalam elemen HTML dengan 3 (tiga) cara, yaitu:</p>
+            
+            <div class="teori-container">
+                <div class="teori-box">
+                    <p class="sub-header">Inline CSS</p>
+                    <p class="about-text">Inline CSS diterapkan langsung pada elemen HTML menggunakan atribut style. Cara ini cocok untuk mengatur gaya pada satu elemen, namun tidak efisien jika digunakan pada banyak elemen sekaligus karena sulit dikelola.</p>
+                </div>
+    
+                <!-- Card 2: Internal CSS -->
+                <div class="teori-box">
+                    <p class="sub-header">Internal CSS</p>
+                    <p class="about-text">Internal CSS ditempatkan dalam elemen style di bagian head dari halaman HTML. Metode ini bagus untuk mengatur gaya satu halaman, namun tidak efisien untuk situs web dengan banyak halaman.</p>
+                </div>
+    
+                <!-- Card 3: External CSS -->
+                <div class="teori-box">
+                    <p class="sub-header">External CSS</p>
+                    <p class="about-text">External CSS menggunakan file CSS terpisah yang dihubungkan ke halaman HTML. Metode ini adalah yang paling efisien untuk mengelola gaya di banyak halaman web karena mudah diubah dan dikelola secara terpusat.</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    
+    <section class="container materi-css">
+        <div class="blog-container css-font">
+            <p class="sub-header css-header">Css Fonts</p>
+            <div class="font-container">
+                <p class="font-box">
+                    CSS Fonts adalah bagian penting dari CSS yang digunakan untuk mengontrol bagaimana teks ditampilkan di halaman web. Dengan CSS Fonts, Anda dapat menentukan jenis huruf (font-family), ukuran huruf (font-size), ketebalan huruf (font-weight), dan gaya huruf (font-style) untuk elemen teks. Properti seperti font-family memungkinkan Anda memilih dari berbagai jenis font, baik yang sudah tersedia secara default di browser atau font kustom dari layanan seperti Google Fonts. font-size mengatur ukuran teks, sedangkan font-weight menentukan ketebalan huruf dari normal hingga bold atau nilai numerik spesifik. font-style mengontrol apakah teks ditampilkan dalam bentuk normal, italic, atau oblique. Selain itu, CSS juga menyediakan properti line-height untuk mengatur jarak antar baris, yang membantu dalam meningkatkan keterbacaan teks. Dengan kemampuan ini, CSS Fonts memungkinkan desain yang konsisten dan menarik pada berbagai perangkat, memastikan bahwa teks di halaman web Anda tidak hanya mudah dibaca tetapi juga estetis.
+                </p>
+                <div class="font-box">
+                    <img class="img-font" src="./code.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container elemen-html">
+        <div class="blog-container html-layout">
+            <p class="sub-header html-header">Elemen Layout HTML</p>
+            <div class="layout-container">
+                    <img class="img-layout" src="./element.png" alt="HTML Layout Elements">
+                <div class="layout-box">
+                    <p> Element layout HTML digunakan untuk menampilkan isi atau konten dalam berbagai bagian atau kolom pada halaman web, mirip dengan format majalah atau surat kabar. HTML5 memperkenalkan beberapa elemen semantik baru yang membantu mendefinisikan struktur halaman dengan lebih jelas dan teratur. Elemen-elemen ini termasuk:
+                    </p>
+                    <ul class="list-element">
+                        <li><strong>&lt;header&gt;:</strong> Digunakan untuk mendefinisikan kepala dokumen atau bagian, sering berisi elemen navigasi dan informasi pengantar.</li>
+                        <li><strong>&lt;nav&gt;:</strong> Menampung link navigasi yang memungkinkan pengguna untuk berpindah antar bagian di situs.</li>
+                        <li><strong>&lt;section&gt;:</strong> Menandai bagian atau ruangan dokumen yang terpisah, seringkali dengan heading dan konten terkait.</li>
+                        <li><strong>&lt;article&gt;:</strong> Berisi konten mandiri yang dapat berdiri sendiri, seperti artikel berita atau posting blog.</li>
+                        <li><strong>&lt;aside&gt;:</strong> Menyediakan konten tambahan yang relevan dengan konten utama, seperti sidebar atau catatan sampingan.</li>
+                        <li><strong>&lt;footer&gt;:</strong> Menandai bagian akhir dari dokumen atau section, biasanya berisi informasi hak cipta atau detail kontak.</li>
+                        <li><strong>&lt;details&gt;:</strong> Menyediakan elemen yang dapat di-expand atau di-collapse, sering digunakan untuk menampilkan informasi tambahan.</li>
+                        <li><strong>&lt;summary&gt;:</strong> Menjadi heading atau ringkasan dari elemen <code>&lt;details&gt;</code>, menampilkan informasi tentang apa yang tersembunyi di bawahnya.</li>
+                    </ul>
+                </>
+            </div>
+        </div>
+    </section>
+
+    <section class="container materi-html-form-keygen">
+        <div class="blog-container html-form">
+
+            <div class="content-container">
+                <div class="content-box">
+                    <p class="sub-header html-header">HTML Forms</p>
+                    <p class="content-text">
+                        HTML Forms adalah elemen penting yang memungkinkan pengguna untuk memasukkan data yang kemudian dapat dikirim ke server untuk diproses. Dengan elemen formulir  Anda dapat membuat berbagai jenis input untuk mengumpulkan informasi pengguna. Formulir HTML mendukung berbagai atribut untuk mengontrol pengiriman data, validasi, dan pengaturan antarmuka pengguna. Formulir dapat digunakan untuk berbagai tujuan, seperti pendaftaran pengguna, pengisian survei, atau pemesanan produk.
+                    </p>
+                </div>
+                    <img class="content-img" src="./form.png" alt="HTML Forms">
+            </div>
+        </div>
+    
+        <div class="blog-container html-keygen">
+           
+            <div class="content-container">
+                <div class="content-box"> <p class="sub-header html-header">HTML Keygen</p>
+                    <p class="content-text">
+                        Elemen HTML keygen digunakan untuk menghasilkan sepasang kunci publik dan privat yang dapat digunakan untuk otentikasi dan enkripsi. Biasanya digunakan dalam formulir untuk tujuan keamanan, seperti autentikasi pengguna dalam aplikasi web. Elemen ini telah menjadi deprecated dalam HTML5 karena kekurangan dukungan dan masalah keamanan, dan direkomendasikan untuk menggunakan metode alternatif seperti Web Crypto API.
+                    </p>
+                </div>
+
+                    <img class="content-img" src="./keygen.png" alt="HTML Keygen">
+
+            </div>
+        </div>
+    </section>
+    
+    <section class=" container contact" id="contact">
+        <div class="content-contact">
+          <h2>Contact me</h2>
+          <p>
+            With experience and a passion for innovation, I'm here to turn your
+            ideas into reality. <br />Don't settle for ordinary. Let's make
+            something extraordinary.<br />Contact me today and let's get started!
+          </p>
+        </div>
+        <div class="container-contact">
+          <div class="contact-info">
+            <div class="box">
+              <div class="icon">
+                <img
+                  src="location-dot-solid.svg"
+                  alt="email icon"
+                  width="23px"
+                  height="23px"
+                />
+              </div>
+              <div class="text">
+                <h2>Address</h2>
+                <p>Manado, South Sulawesi<br />Indonesia</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img
+                  src="envelope-solid.svg"
+                  alt="email icon"
+                  width="23px"
+                  height="23px"
+                />
+              </div>
+              <div class="text">
+                <h2>E-mail</h2>
+                <p>
+                  <a href="mailto:heskipranata3mrh@gmail.com"
+                    >heskipranata3mrh@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img
+                  src="phone-solid.svg"
+                  alt="phone icon"
+                  width="23px"
+                  height="23px"
+                />
+              </div>
+              <div class="text">
+                <h2>Phone</h2>
+                <p>+62852-5657-5124</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm" >
+              <h2>Send message</h2>
+              <div class="inputBox">
+                <input type="text" name="name" required />
+                <span>Your name</span>
+              </div>
+              <div class="inputBox">
+                <input type="email" name="email" required />
+                <span>Email</span>
+              </div>
+              <div class="inputBox">
+                <textarea name="message" required></textarea>
+                <span>Type your message ...</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="submit" value="Send" id="myBtn" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
